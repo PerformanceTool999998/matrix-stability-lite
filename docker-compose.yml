@@ -1,0 +1,15 @@
+version: '3.8'
+
+services:
+  server:
+    build: ./server
+    ports:
+      - "8000:8000"
+    volumes:
+      - ./data:/app/data
+    environment:
+      - DATABASE_URL=sqlite:///app/data/matrix_lite.db
+    command: uvicorn main:app --host 0.0.0.0 --port 8000
+
+  # 学习版 Agent 在本地运行，不放入 Docker
+  # 实际使用时直接 python agent/agent_lite.py
