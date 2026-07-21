@@ -32,7 +32,6 @@
   - [🔮 扩展方向](#-扩展方向)
   - [📸 截图展示](#-截图展示)
     - [实时质量看板](#实时质量看板)
-    - [Agent 运行日志](#agent-运行日志)
     - [API 文档](#api-文档)
   - [🚀 Pro 企业版](#-pro-企业版)
   - [🤝 贡献指南](#-贡献指南)
@@ -312,11 +311,11 @@ def generate_fingerprint(stack_trace: str) -> str:
 
 > 设备总数、崩溃次数、独立缺陷数、Top 设备排行、最近崩溃列表
 
-![Dashboard]（docs/screenshots/dashboard.png）
+![Dashboard](docs/screenshots/dashboard.png)
 
 ### API 文档
 
-![API]（docs/screenshots/api_docs.png）
+![API](docs/screenshots/api_docs.png)
 
 API Docs
 
